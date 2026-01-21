@@ -1,10 +1,10 @@
 const AbstractSection = () => {
   return (
-    <section className="bg-muted/30 py-16 transition-colors duration-300">
-      <div className="max-w-4xl mx-auto px-6 sm:px-4 xs:px-2">
-        <h2 className="text-3xl font-bold text-center mb-8 text-foreground animate-fade-in">Abstract</h2>
+    <section className=" py-1 transition-colors duration-300">
+      <div className=" px-6 sm:px-4 xs:px-2">
+        <h2 className="text-3xl font-semibold text-center mb-8 text-foreground animate-fade-in bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 py-3 rounded-lg"><strong>Abstract</strong></h2>
         
-        <div className="prose prose-lg max-w-none text-justify leading-relaxed text-foreground animate-fade-in">
+        <div className="prose prose-lg  text-justify leading-relaxed text-foreground animate-fade-in">
           <p className="mb-4">
             We focus on source-free domain adaptive object detection (SF-DAOD) problem when source data is unavailable during adaptation and the model must adapt to unlabeled target
  domain. Majority of approaches for the problem employ a self-supervised approach using a student-teacher (ST)
@@ -17,12 +17,7 @@ pretrained model for further fine-tuning. We observe that the performance of a s
 token based adversarial modules into a student-teacher baseline framework to reduce the domain gaps between two feature representations. Experiments conducted on four natural
  imaging datasets and two challenging medical datasets have substantiated the superior performance of <strong>TITAN</strong> compared to existing state-of-the-art (SOTA) methodologies. We report 
  an mAP improvement of +22.7, +22.2, +21.1 and +3.7 percent over the current SOTA on C2F, C2B, S2C, and K2C benchmarks respectively
-          </p>
-          
-        
-          
-        
-        
+          </p>   
         </div>
       </div>
     </section>
